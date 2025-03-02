@@ -19,7 +19,7 @@ const ChallengeFriend = () => {
     }
   }, []);
 
-  const inviteLink = `https://backend-game-d2bp.vercel.app/challenge/${username}`;
+  const inviteLink = `https://game-d2bp.vercel.app/challenge/${username}`;
 
   const handleShareWhatsApp = () => {
     const whatsappMessage = `Hey! Join me in playing Globetrotter Trivia. Click here to accept the challenge: ${inviteLink}`;
