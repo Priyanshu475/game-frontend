@@ -31,13 +31,12 @@ const ChallengeFriend = () => {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-r from-blue-400 to-purple-500">
-      <motion.button
-        className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
+      <button
+        className="btn btn-secondary"
         onClick={() => setIsModalOpen(true)}
-        whileHover={{ scale: 1.1 }}
       >
         Share Challenge
-      </motion.button>
+      </button>
 
       <Modal
         isOpen={isModalOpen}
